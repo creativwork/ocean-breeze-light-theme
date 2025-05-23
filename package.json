@@ -1,0 +1,74 @@
+{
+  "name": "ocean-breeze-light-theme",
+  "displayName": "Ocean Breeze Light Theme",
+  "description": "A beautiful light theme with ocean-inspired colors featuring teal, warm orange, and soft purple accents",
+  "version": "0.1.0",
+  "publisher": "creativwork",
+  "author": {
+    "name": "Martin Matanovic",
+    "email": "me@creativwork.org",
+    "url": "https://github.com/creativwork"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creativwork/ocean-breeze-light-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creativwork/ocean-breeze-light-theme/issues"
+  },
+  "homepage": "https://github.com/creativwork/ocean-breeze-light-theme#readme",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "ocean",
+    "teal",
+    "orange",
+    "purple",
+    "modern",
+    "clean",
+    "accessibility",
+    "syntax highlighting"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ocean Breeze Light",
+        "uiTheme": "vs",
+        "path": "./themes/ocean-breeze-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'No compilation needed for theme'",
+    "test": "echo 'No tests for theme'"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#f9f7f3",
+    "theme": "light"
+  },
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "preview": false,
+  "main": "./out/extension.js"
+}
