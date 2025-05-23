@@ -432,8 +432,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#ffffff",
-        "background": "#ca4b51"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -443,7 +442,6 @@
       ],
       "settings": {
         "foreground": "#ffffff",
-        "background": "#e9a700",
         "fontStyle": "strikethrough"
       }
     }
@@ -500,7 +498,6 @@
     "commandCenter.activeBackground": "#ffffff",
     "commandCenter.border": "#0fa3b1",
     "commandCenter.inactiveForeground": "#616161a5",
-    "commandCenter.inactiveBackground": "#f9f7f300",
     
     // Status Bar
     "statusBar.foreground": "#170f11",
@@ -592,14 +589,14 @@
     "editor.hoverHighlightBackground": "#0fa3b130",
     "editor.lineHighlightBackground": "#f7a07220",
     "editor.lineHighlightBorder": "#f7a07200",
-    "editor.rangeHighlightBackground": "#f9f7f3",
+    "editor.rangeHighlightBackground": "#f9f7f380",
     "editor.rangeHighlightBorder": "#f9f7f3",
     "editor.linkedEditingBackground": "#0fa3b120",
     
     // Editor whitespace and guides
     "editorWhitespace.foreground": "#ffe8a5",
-    "editorIndentGuide.background": "#f7a07248",
-    "editorIndentGuide.activeBackground": "#f7a072b1",
+    "editorIndentGuide.background1": "#f7a07248",
+    "editorIndentGuide.activeBackground1": "#f7a072b1",
     "editorRuler.foreground": "#d3d3d3",
     
     // Editor brackets
@@ -620,11 +617,11 @@
     // Editor overview ruler
     "editorOverviewRuler.background": "#0fa3b100",
     "editorOverviewRuler.border": "#0fa3b100",
-    "editorOverviewRuler.findMatchForeground": "#f7a072",
-    "editorOverviewRuler.rangeHighlightForeground": "#0fa3b1",
-    "editorOverviewRuler.selectionHighlightForeground": "#0197f6",
-    "editorOverviewRuler.wordHighlightForeground": "#0fa3b1",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#0fa3b1",
+    "editorOverviewRuler.findMatchForeground": "#f7a07280",
+    "editorOverviewRuler.rangeHighlightForeground": "#0fa3b180",
+    "editorOverviewRuler.selectionHighlightForeground": "#0197f680",
+    "editorOverviewRuler.wordHighlightForeground": "#0fa3b180",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0fa3b180",
     "editorOverviewRuler.modifiedForeground": "#66afe0",
     "editorOverviewRuler.addedForeground": "#81b88b",
     "editorOverviewRuler.deletedForeground": "#ca4b51",
@@ -830,12 +827,12 @@
     "editorMarkerNavigationInfo.background": "#0197f6",
     
     // Merge conflicts
-    "merge.currentHeaderBackground": "#A4E3D6",
-    "merge.currentContentBackground": "#DBF4EF",
-    "merge.incomingHeaderBackground": "#A6CFFF",
-    "merge.incomingContentBackground": "#DBECFF",
-    "merge.commonHeaderBackground": "#BFBFBF",
-    "merge.commonContentBackground": "#E5E5E5",
+    "merge.currentHeaderBackground": "#A4E3D680",
+    "merge.currentContentBackground": "#DBF4EF80",
+    "merge.incomingHeaderBackground": "#A6CFFF80",
+    "merge.incomingContentBackground": "#DBECFF80",
+    "merge.commonHeaderBackground": "#BFBFBF80",
+    "merge.commonContentBackground": "#E5E5E580",
     "merge.border": "#0fa3b1",
     
     // Diff editor
@@ -846,8 +843,8 @@
     "diffEditor.border": "#d7d7d7",
     
     // Minimap
-    "minimap.findMatchHighlight": "#ffe8a5",
-    "minimap.selectionHighlight": "#d6ebff",
+    "minimap.findMatchHighlight": "#ffe8a580",
+    "minimap.selectionHighlight": "#d6ebff80",
     "minimap.errorHighlight": "#ca4b51",
     "minimap.warningHighlight": "#e9a700",
     "minimap.background": "#ffffff",
@@ -879,8 +876,6 @@
     
     // Welcome page
     "welcomePage.background": "#ffffff",
-    "welcomePage.buttonBackground": "#0fa3b1",
-    "welcomePage.buttonHoverBackground": "#0b7983",
     "welcomePage.tileBackground": "#f9f7f3",
     "welcomePage.tileHoverBackground": "#f3f3f3",
     "welcomePage.tileBorder": "#0fa3b1",
@@ -902,10 +897,6 @@
     "quickInput.background": "#f3f3f3",
     "quickInput.foreground": "#616161",
     "quickInputTitle.background": "#ffffff00",
-    
-    // Menu
-    "menu.separatorBackground": "#888888",
-    "menu.border": "#00000085",
     
     // Icon colors
     "icon.foreground": "#616161",
