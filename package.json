@@ -4,15 +4,11 @@
   "description": "A beautiful light theme with ocean-inspired colors featuring teal, warm orange, and soft purple accents",
   "version": "0.1.0",
   "publisher": "creativwork",
-  "author": {
-    "name": "Martin Matanovic",
-    "email": "me@creativwork.org",
-    "url": "https://github.com/creativwork"
-  },
+  "author": "Martin Matanovic <me@creativwork.org> (https://github.com/creativwork)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/creativwork/ocean-breeze-light-theme.git"
+    "url": "git+https://github.com/creativwork/ocean-breeze-light-theme.git"
   },
   "bugs": {
     "url": "https://github.com/creativwork/ocean-breeze-light-theme/issues"
@@ -53,7 +49,7 @@
     "test": "echo 'No tests for theme'"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.22.0"
+    "@vscode/vsce": "^2.32.0"
   },
   "icon": "icon.png",
   "galleryBanner": {
@@ -70,5 +66,5 @@
     }
   },
   "preview": false,
-  "main": "./out/extension.js"
+  "type": "commonjs"
 }
