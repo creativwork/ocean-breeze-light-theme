@@ -77,3 +77,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+---
+
+Made with 💙 by [Martin Matanovic](https://github.com/creativwork)
