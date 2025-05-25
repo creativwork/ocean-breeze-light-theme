@@ -20,3 +20,7 @@ All notable changes to the "Ocean Breeze Light Theme" extension will be document
 - Comprehensive language support including TypeScript, React, Python, Rust
 - Clean, readable interface with warm white backgrounds
 - Professional color scheme suitable for long coding sessions
+
+## [0.2.0] - 2025-05-24
+
+- Small fixes
